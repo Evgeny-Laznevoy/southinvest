@@ -78,7 +78,7 @@ export const Portfolio: React.FC<PortfolioProps> = ({ onCtaClick }) => {
     {
       id: 'c1',
       title: 'ЯЛТА',
-      image: '/assets/images/ялта-локация.jpg',
+      image: '/assets/images/yalta-location.jpg',
       location: 'Крым',
       category: 'crimea',
       priceStart: '',

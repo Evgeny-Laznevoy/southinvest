@@ -12,7 +12,7 @@ export const LeadFormSection: React.FC<LeadFormSectionProps> = ({ onOpenModal })
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/assets/images/apartments.jpg" 
+          src="public/assets/images/apartments.jpg"
           onError={(e) => {
             // Fallback if image is missing or name is incorrect
             e.currentTarget.src = "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80";
